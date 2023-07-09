@@ -1,0 +1,39 @@
+
+/* CSS POUR LE WIDGET .lien-image-widget */
+.widget_lien_image_widget{
+    text-align: center;
+}
+.lien-image-widget{
+    text-decoration: none;
+}
+.lien-image-widget-bg{
+    height: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+.lien-image-widget-bg:before{
+    content: "";
+    position: absolute;
+    z-index: 1;
+    top:0;
+    left:0;
+    right: 0;
+    bottom: 0;
+    background-color: black;
+    opacity: 0.5;
+}
+.lien-image-widget-bg .titre{
+    color: white;
+    font-size: 30px;
+   position: relative;
+    z-index: 2;
+    margin: 0;
+    padding: 10px 20px;
+    text-align: center;
+}
